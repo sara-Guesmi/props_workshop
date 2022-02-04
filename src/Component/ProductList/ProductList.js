@@ -13,7 +13,7 @@ const ProductList = () => {
       ))}
       <h2 className="title">
         List Of product that their category is Men's clothing and their price
-        greater tha 100:{" "}
+        greater tha 100:
       </h2>
       {products
         .filter(

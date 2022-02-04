@@ -3,7 +3,7 @@ import Child from "./Child";
 
 const Parent = () => {
   const x = 2;
-  let str = "seif";
+  let str = "khouloud";
   let test = true;
   let array = [
     { name: "prod1", price: 10 },

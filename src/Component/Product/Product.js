@@ -3,6 +3,7 @@ import "./Product.css";
 import Rating from "@mui/material/Rating";
 import StarIcon from "@mui/icons-material/Star";
 import { Button } from "@mui/material";
+
 const Product = ({ product, handleName }) => {
   return (
     <div id="container">
@@ -38,3 +39,14 @@ const Product = ({ product, handleName }) => {
 };
 
 export default Product;
+Product.defaultProps = {
+  product: {
+    id: 0,
+    title: "inconnu",
+    price: 0,
+    description: "inconnu",
+    image:
+      "https://img1.freepng.fr/20180624/ivq/kisspng-business-organization-computer-software-tom-clancy-unknown-person-5b2f72c6649235.833799281529836230412.jpg",
+    rating: { rate: 0, count: 0 },
+  },
+};
